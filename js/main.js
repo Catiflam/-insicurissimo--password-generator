@@ -1,13 +1,13 @@
-// const username = prompt(" Inserisci il tuo nome");
-// const surname = prompt("inserisci il tuo cognome");
-// const favouritecolor = prompt("inserisci il colore preferito");
+const username = prompt(" Inserisci il tuo nome");
+const surname = prompt("inserisci il tuo cognome");
+let favouritecolor = prompt("inserisci il colore preferito");
+favouritecolor = favouritecolor + "21";
 
 const lorem = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, cum!";
 
 const welcomeMessage = `
- Benvenuto, filippo
- <p>${lorem}</p> `;
+ <h3>Benvenuto ${username} ${surname} </h3>
+${favouritecolor}
+ <p>${favouritecolor}</p> `;
 
-// document.getElemen;tById("userinfo").innerHTML = welcomeMessage
-
-// console.log("inserisci l'insieme dei dati" + username + surname + favouritecolor = welcomeMessage);
+document.getElementById("userinfo").innerHTML = welcomeMessage;
