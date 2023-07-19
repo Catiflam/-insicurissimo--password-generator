@@ -7,7 +7,7 @@ const lorem = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
 
 const welcomeMessage = `
  <h3>Benvenuto ${username} ${surname} </h3>
-${favouritecolor}
- <p>${favouritecolor}</p> `;
+
+ <h2> ${username} ${surname} ${favouritecolor}</h2> `;
 
 document.getElementById("userinfo").innerHTML = welcomeMessage;
